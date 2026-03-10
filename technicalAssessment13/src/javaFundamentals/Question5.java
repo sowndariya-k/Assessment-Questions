@@ -51,6 +51,7 @@ public class Question5 {
         System.out.println();
         while (true) {
             int value=input.nextInt();
+            System.out.print(value+" ");
             //negative number break
             if (value<0)
                 break;
