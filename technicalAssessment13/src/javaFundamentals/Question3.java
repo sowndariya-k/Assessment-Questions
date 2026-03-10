@@ -8,6 +8,7 @@ public class Question3 {
 		Scanner input=new Scanner(System.in);
 		System.out.print("Enter a positive integer: ");
 		int num=input.nextInt();
+		System.out.println(num);
 		
 		//calculate perfect number 
 		int sum=0;
