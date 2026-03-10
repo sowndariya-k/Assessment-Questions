@@ -48,7 +48,6 @@ public class Question5 {
         for (int i = 0; i < count; i++) {
             System.out.print(score[i] + " ");
         }
-        System.out.println();
         while (true) {
             int value=input.nextInt();
             System.out.print(value+" ");
@@ -59,7 +58,7 @@ public class Question5 {
             score[count++]=value;
         }
 
-
+        System.out.println();
         System.out.print("Scores before processing: ");
         for (int i = 0; i < count; i++) {
             System.out.print(score[i] + " ");
