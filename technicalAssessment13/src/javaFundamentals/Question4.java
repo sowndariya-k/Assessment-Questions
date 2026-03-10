@@ -8,9 +8,11 @@ public class Question4 {
 		Scanner input=new Scanner(System.in);
 		System.out.print("Enter the Starting Number: ");
 		int start=input.nextInt();
+		System.out.println(start);
 		
 		System.out.print("Enter the Ending Number: ");
 		int end=input.nextInt();
+		System.out.println(end);
 		
 		for(int i=start; i<=end; i++) {
 			//divisible by 10 'dong'
