@@ -120,16 +120,19 @@ public class Question1 {
 		
 			System.out.print("OPTION: ");
 			option = sc.nextInt();
+			System.out.println(option);
 		switch (option) {
 		case 1:
 			System.out.print("ENTER AMOUNT TO WITHDRAW: ");
 			double amount = sc.nextDouble();
+			System.out.println(amount);
 			Account.withdraw(amount);
 			break;
 
 		case 2:
 			System.out.print("ENTER AMOUNT TO DEPOSIT: ");
 			double amountD = sc.nextDouble();
+			System.out.println(amountD);
 			Account.deposit(amountD);
 			break;
 
