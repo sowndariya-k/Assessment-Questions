@@ -10,12 +10,15 @@ public class Question2 {
         //get three inputs
         System.out.print("Enter input1: ");
         int num1=input.nextInt();
+        System.out.println(num1);
         
         System.out.print("Enter input2: ");
         int num2=input.nextInt();
+        System.out.println(num2);
         
         System.out.print("Enter input3: ");
         int num3=input.nextInt();
+        System.out.println(num3);
         
         //extract digits
         //units
