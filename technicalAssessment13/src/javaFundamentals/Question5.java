@@ -44,7 +44,7 @@ public class Question5 {
         int[] score=new int[10];
         int count=0;
 
-        System.out.println("Enter the scores:");
+        System.out.println("Enter the scores (enter a negative number to stop input):");
         while (true) {
             int value=input.nextInt();
             //negative number break
@@ -56,12 +56,12 @@ public class Question5 {
 
 
         System.out.print("Scores before processing: ");
-        for (int i = 0; i < score.length; i++) {
+        for (int i = 0; i < count; i++) {
             System.out.print(score[i] + " ");
         }
 
         System.out.println();
-        AssignScore(score);
+        AssignScore(Arrays.copyOf(score, count));
 
         input.close();
     }
