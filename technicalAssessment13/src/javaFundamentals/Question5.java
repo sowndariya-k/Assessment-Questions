@@ -45,6 +45,10 @@ public class Question5 {
         int count=0;
 
         System.out.println("Enter the scores (enter a negative number to stop input):");
+        for (int i = 0; i < count; i++) {
+            System.out.print(score[i] + " ");
+        }
+        System.out.println();
         while (true) {
             int value=input.nextInt();
             //negative number break
