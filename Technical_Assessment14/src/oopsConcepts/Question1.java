@@ -92,20 +92,25 @@ public class Question1 {
 		System.out.println("ACCOUNT DETAILS");
 		System.out.print("ACCOUNT_ID        : ");
 		int id = sc.nextInt();
+		System.out.println(id);
 
 		System.out.print("CUSTOMER_ID     : ");
 		int customerId = sc.nextInt();
 		sc.nextLine();
+		System.out.println(customerId);
 
 		System.out.print("CUSTOMER_NAME     : ");
 		String name = sc.nextLine();
+		System.out.println(name);
 
 		System.out.print("CUSTOMER_GENDER   : ");
 		char gender = sc.next().charAt(0);
+		System.out.println(gender);
 		
 		
 		System.out.print("ACCOUNT_BALANCE : ");
 		double balance = sc.nextDouble();
+		System.out.println(balance);
 		Account.balance = balance;
 		
 		int option = 0;
