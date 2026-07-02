@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <p>Fill all the fields for registration.</p>
+    
+    <form id="registrationForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name">
+        <span id="nameError" class="error-text"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <span id="emailError" class="error-text"></span>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob">
+        <span id="dobError" class="error-text"></span>
+
+        <label>Gender:</label>
+        <div class="radio-group">
+            <input type="radio" id="male" name="gender" value="male"> 
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+
+        <label>Languages Known:</label>
+        <div class="checkbox-group">
+            <input type="checkbox" name="language" value="english">English
+            <input type="checkbox" name="language" value="tamil">Tamil
+            <input type="checkbox" name="language" value="malayalam">Malayalam
+        </div>
+
+        <label for="course">Course:</label>
+        <select id="course">
+            <option value="">select course</option>
+            <option value="be">B.E</option>
+            <option value="me">M.E</option>
+            <option value="mba">MBA</option>
+            <option value="mca">MCA</option>
+        </select>
+        <span id="courseError" class="error-text"></span>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3>Campus Facilities</h3>
+    <ul>
+        <li>large Auditorium</li>
+        <li>WiFi connection</li>
+        <li>Library</li>
+    </ul>
+
+    <footer>
+        Sowndariya K - 2026
+    </footer>
+    <script src="validate.js"></script>
+</body>
+</html>

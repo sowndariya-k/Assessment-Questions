@@ -1,0 +1,14 @@
+{
+    "validUser":{
+        "email":"sowndariya@gmail.com",
+        "password":"Sow@911!"
+    },
+    "InvalidUser":{
+        "email":"sownd@gmail.com",
+        "password":"Sow@911!"
+    },
+    "InvalidPass":{
+        "email":"sowndariya@gmail.com",
+        "password":"Sow@91"
+    }
+}

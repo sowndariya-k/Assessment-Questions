@@ -1,0 +1,11 @@
+Total Lines : 9
+Total Words: 31
+Total char: 239
+Total vowels: 34
+INFO : 2
+WARNING : 1
+ERROR : 1
+CRITICAL : 1
+--- ALERTS ---
+[ERROR] 2025-06-01 09:10:44 — DB
+[CRITICAL] 2025-06-01 09:20:33 — Disk full

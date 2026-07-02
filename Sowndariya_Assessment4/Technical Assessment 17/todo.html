@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List application</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            padding: 20px; 
+            text-align: center; 
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+
+        li{
+            text-align: center;
+            margin-bottom: 10px;
+            background: #eeeeee;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        button.delete-btn{
+            background: red;
+            color: white;
+            border:none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+    <script>
+        function addTask() {
+            const input=document.getElementById('taskInput');
+            const taskText=input.value.trim();
+            if (taskText==="") {
+                alert("Please enter a task");
+                return;
+            }
+            const ul=document.getElementById('taskList');
+            const li=document.createElement('li');
+            const textNode=document.createTextNode(taskText);
+            li.appendChild(textNode);
+
+            const delBtn=document.createElement('button');
+            delBtn.textContent='Delete';
+            delBtn.className='delete-btn';
+            delBtn.onclick=function() {
+                ul.removeChild(li);
+            };
+
+            li.appendChild(delBtn);
+            ul.appendChild(li);
+            input.value="";
+        }
+    </script>
+</body>
+</html>
