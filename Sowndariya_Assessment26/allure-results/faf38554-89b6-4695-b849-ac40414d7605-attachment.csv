@@ -1,0 +1,6 @@
+Field,Message
+FirstName,First name is required.
+LastName,Last name is required.
+Email,Email is required.
+Password,Password is required.
+ConfirmPassword,Password is required.

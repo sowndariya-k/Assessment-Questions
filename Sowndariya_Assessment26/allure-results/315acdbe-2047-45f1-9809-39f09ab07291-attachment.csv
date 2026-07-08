@@ -1,0 +1,3 @@
+firstname,lastname,email,password,confirmPassword,errorMessage
+kavi,k,kavi123@gmail.com,12323,abc12,The password and confirmation password do not match.
+priya,dev,priya123@gmail.com,dev123,dev12,The password and confirmation password do not match.
