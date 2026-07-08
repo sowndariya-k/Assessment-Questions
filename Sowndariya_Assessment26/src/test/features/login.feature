@@ -2,19 +2,17 @@
 Feature: Login Functionality
 
   Background:
-    Given user launches the Demo Web Shop website
-    And the user is on the Demo Web Shop login page
-    And user clicks the login link
+    Given the user is on the DemoWebShop Login page
+    And User click the login link
 
-  Scenario: Successful login with valid credentials
-    When the user logs in with valid credentials
-    And the user clicks the Log in button
-    Then the user should be redirected to the homepage
-    And the user email should be displayed in the header
-    And the Log out link should be visible
+  Scenario Outline: Verify login with valid and invalid credentials
+  And User enter the email as "<email>"
+  And User enter the password1 as "<password>"
+  When User click login button
+  Then User should see "<result>"
 
-  Scenario: Login with invalid credentials
-    When the user logs in with invalid credentials
-    And the user clicks the Log in button
-    Then the appropriate error message should be displayed
-    And the user should remain on the login page
+Examples:
+  | email                | password | result        |
+  | 2k22it51@kiot.ac.in  | Sow@911! | Account       |
+  | 2k22it51@kiot.ac.in  | Sow@911  | The credentials provided are incorrect. |
+  | 2k22it51@gmail.ac.in | Sow@911! | Login was unsuccessful. Please correct the errors and try again. |

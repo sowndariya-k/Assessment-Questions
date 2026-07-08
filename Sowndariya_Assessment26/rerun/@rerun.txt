@@ -1,2 +1,0 @@
-src\test\features\login.feature:9
-src\test\features\register.feature:33:34:36:58:59

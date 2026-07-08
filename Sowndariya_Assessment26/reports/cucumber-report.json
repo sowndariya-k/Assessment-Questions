@@ -4,410 +4,82 @@
     "elements": [
       {
         "description": "",
-        "id": "login-functionality;successful-login-with-valid-credentials",
+        "id": "register-functionality;user-should-register-successfully",
         "keyword": "Scenario",
-        "line": 9,
-        "name": "Successful login with valid credentials",
+        "line": 8,
+        "name": "User should register successfully",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 274287000
+              "duration": 138416600
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "user launches the Demo Web Shop website",
+            "name": "the user is on the DemoWebShop website",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:10"
+              "location": "src\\test\\steps\\registerStep.ts:5"
             },
             "result": {
-              "status": "failed",
-              "duration": 5027032400,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Sowndariya\\Desktop\\Expleo\\Sowndariya_Assessment\\Assessment-Questions\\Sowndariya_Assessment26\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+              "status": "passed",
+              "duration": 3761520000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the user is on the Demo Web Shop login page",
+            "name": "the user is on the Register page",
             "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "user clicks the login link",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:24"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "the user logs in with valid credentials",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:31"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the user clicks the Log in button",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:65"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "the user should be redirected to the homepage",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:72"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "the user email should be displayed in the header",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:79"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "the Log out link should be visible",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:86"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 680327900
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login-functionality;login-with-invalid-credentials",
-        "keyword": "Scenario",
-        "line": 16,
-        "name": "Login with invalid credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 139787000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "user launches the Demo Web Shop website",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:10"
+              "location": "src\\test\\steps\\registerStep.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 3901161200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user is on the Demo Web Shop login page",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1618299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "user clicks the login link",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 529602499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 17,
-            "name": "the user logs in with invalid credentials",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 101937699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "the user clicks the Log in button",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:65"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 385816999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "the appropriate error message should be displayed",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:93"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 73691599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 20,
-            "name": "the user should remain on the login page",
-            "match": {
-              "location": "src\\test\\steps\\loginStep.ts:102"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5408699
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 33845900
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "login-functionality",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "Login Functionality",
-    "tags": [
-      {
-        "name": "@login",
-        "line": 1
-      }
-    ],
-    "uri": "src\\test\\features\\login.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "register-functionality;verify-successful-registration",
-        "keyword": "Scenario Outline",
-        "line": 19,
-        "name": "Verify successful registration",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 155581200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the user is on the DemoWebShop homepage",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3217531500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user clicks the \"Register\" link",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 517255600
+              "duration": 515597200
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 9,
-            "name": "the user enters firstname \"kavi\"",
+            "name": "user enters registration details from \"newuser\"",
             "match": {
-              "location": "src\\test\\steps\\registerStep.ts:18"
+              "location": "src\\test\\steps\\registerStep.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 33954099
+              "duration": 92683499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "the user enters lastname \"k\"",
+            "name": "the user clicks register button",
             "match": {
-              "location": "src\\test\\steps\\registerStep.ts:22"
+              "location": "src\\test\\steps\\registerStep.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 17096600
+              "duration": 1012673399
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 11,
-            "name": "the user enters email \"sowndariya@gmail.com\"",
+            "name": "user should see Your registration completed message",
             "match": {
-              "location": "src\\test\\steps\\registerStep.ts:26"
+              "location": "src\\test\\steps\\registerStep.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 15418900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "the user enters password \"Sow@911!\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 20330999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "the user enters confirm password \"Sow@911!\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 12502899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "the user clicks the \"Register\" button",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1112685899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "the page should display the message \"Your registration completed\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:44"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 30101399
+              "duration": 33463999
             }
           },
           {
@@ -415,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29500500
+              "duration": 28310100
             }
           }
         ],
@@ -429,560 +101,82 @@
       },
       {
         "description": "",
-        "id": "register-functionality;verify-successful-registration",
-        "keyword": "Scenario Outline",
-        "line": 20,
-        "name": "Verify successful registration",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 164033999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the user is on the DemoWebShop homepage",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3552580700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user clicks the \"Register\" link",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 529869600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 9,
-            "name": "the user enters firstname \"priya\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 35587400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the user enters lastname \"K\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 20096900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the user enters email \"sownd@gmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 21076099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "the user enters password \"Sow@911!\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 17073099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "the user enters confirm password \"Sow@911!\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 17286299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "the user clicks the \"Register\" button",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 989508300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "the page should display the message \"Your registration completed\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:44"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 32098699
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 29575699
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@register",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "register-functionality;verify-registration-with-invalid-email-format",
-        "keyword": "Scenario Outline",
-        "line": 33,
-        "name": "Verify registration with invalid email format",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 150838999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the user is on the DemoWebShop homepage",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4189007599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user clicks the \"Register\" link",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 523701699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 23,
-            "name": "the user enters firstname \"priya\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 35325299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 24,
-            "name": "the user enters lastname \"j\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16977500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 25,
-            "name": "the user enters email \"john@\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13400300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 26,
-            "name": "the user enters password \"123456\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 19476199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 27,
-            "name": "the user enters confirm password \"123456\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 12097699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 28,
-            "name": "the user clicks the \"Register\" button",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 62873800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 29,
-            "name": "the email error message \"Wrong email\" should be displayed",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:48"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 5015076499,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Sowndariya\\Desktop\\Expleo\\Sowndariya_Assessment\\Assessment-Questions\\Sowndariya_Assessment26\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 141112500
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@register",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "register-functionality;verify-registration-with-invalid-email-format",
-        "keyword": "Scenario Outline",
-        "line": 34,
-        "name": "Verify registration with invalid email format",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 135400899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the user is on the DemoWebShop homepage",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3949474499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user clicks the \"Register\" link",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 523499700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 23,
-            "name": "the user enters firstname \"priya\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 34440099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 24,
-            "name": "the user enters lastname \"K\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 19461900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 25,
-            "name": "the user enters email \"sowndgmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13337500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 26,
-            "name": "the user enters password \"Sow@911!\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 19965499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 27,
-            "name": "the user enters confirm password \"Sow@911!\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10602999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 28,
-            "name": "the user clicks the \"Register\" button",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 53663699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 29,
-            "name": "the email error message \"Wrong email\" should be displayed",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:48"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 5005427300,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Sowndariya\\Desktop\\Expleo\\Sowndariya_Assessment\\Assessment-Questions\\Sowndariya_Assessment26\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 136010099
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@register",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "register-functionality;verify-registration-with-empty-mandatory-fields",
+        "id": "register-functionality;existing-user-registration-should-not-be-successful",
         "keyword": "Scenario",
-        "line": 36,
-        "name": "Verify registration with empty mandatory fields",
+        "line": 13,
+        "name": "Existing user registration should not be successful",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 131002899
+              "duration": 132588200
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the user is on the DemoWebShop homepage",
+            "name": "the user is on the DemoWebShop website",
             "match": {
-              "location": "src\\test\\steps\\registerStep.ts:8"
+              "location": "src\\test\\steps\\registerStep.ts:5"
             },
             "result": {
               "status": "passed",
-              "duration": 3662168700
+              "duration": 4000111999
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "line": 6,
-            "name": "the user clicks the \"Register\" link",
+            "name": "the user is on the Register page",
             "match": {
-              "location": "src\\test\\steps\\registerStep.ts:12"
+              "location": "src\\test\\steps\\registerStep.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 520803399
+              "duration": 510103499
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 37,
-            "name": "the user clicks the \"Register\" button",
+            "line": 14,
+            "name": "user enters registration details from \"existuser\"",
             "match": {
-              "location": "src\\test\\steps\\registerStep.ts:38"
+              "location": "src\\test\\steps\\registerStep.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 76446799
+              "duration": 88496900
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "Field",
-                      "Message"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "FirstName",
-                      "First name is required."
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "LastName",
-                      "Last name is required."
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Email",
-                      "Email is required."
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Password",
-                      "Password is required."
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "ConfirmPassword",
-                      "Password is required."
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "Then ",
-            "line": 38,
-            "name": "the following validation messages should be displayed",
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks register button",
             "match": {
-              "location": "src\\test\\steps\\registerStep.ts:60"
+              "location": "src\\test\\steps\\registerStep.ts:31"
             },
             "result": {
-              "status": "failed",
-              "duration": 5008195700,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Sowndariya\\Desktop\\Expleo\\Sowndariya_Assessment\\Assessment-Questions\\Sowndariya_Assessment26\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+              "status": "passed",
+              "duration": 619704499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user should see error message",
+            "match": {
+              "location": "src\\test\\steps\\registerStep.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33725400
             }
           },
           {
@@ -990,456 +184,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 153359600
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@register",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "register-functionality;verify-registration-with-password-mismatch",
-        "keyword": "Scenario Outline",
-        "line": 58,
-        "name": "Verify registration with password mismatch",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 198121399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the user is on the DemoWebShop homepage",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3880252800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user clicks the \"Register\" link",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 499477099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 48,
-            "name": "the user enters firstname \"kavi\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 41831799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 49,
-            "name": "the user enters lastname \"k\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 18298099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 50,
-            "name": "the user enters email \"kavi123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 17375800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 51,
-            "name": "the user enters password \"12323\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13803599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 52,
-            "name": "the user enters confirm password \"abc12\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 17027000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 53,
-            "name": "the user clicks the \"Register\" button",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 51336799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 54,
-            "name": "the confirm password error message \"The password and confirmation password do not match.\" should be displayed",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:52"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 5016532300,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Sowndariya\\Desktop\\Expleo\\Sowndariya_Assessment\\Assessment-Questions\\Sowndariya_Assessment26\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 111553899
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@register",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "register-functionality;verify-registration-with-password-mismatch",
-        "keyword": "Scenario Outline",
-        "line": 59,
-        "name": "Verify registration with password mismatch",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 153461800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the user is on the DemoWebShop homepage",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3561084199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user clicks the \"Register\" link",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 523032200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 48,
-            "name": "the user enters firstname \"priya\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 33417600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 49,
-            "name": "the user enters lastname \"dev\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 14816699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 50,
-            "name": "the user enters email \"priya123@gmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 15495599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 51,
-            "name": "the user enters password \"dev123\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16034100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 52,
-            "name": "the user enters confirm password \"dev12\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 18227599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 53,
-            "name": "the user clicks the \"Register\" button",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 65314899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 54,
-            "name": "the confirm password error message \"The password and confirmation password do not match.\" should be displayed",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:52"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 5008569100,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Sowndariya\\Desktop\\Expleo\\Sowndariya_Assessment\\Assessment-Questions\\Sowndariya_Assessment26\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 155931899
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@register",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "register-functionality;verify-registration-with-existing-email",
-        "keyword": "Scenario Outline",
-        "line": 72,
-        "name": "Verify registration with existing email",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 143963400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the user is on the DemoWebShop homepage",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4325019400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user clicks the \"Register\" link",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 523648499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 62,
-            "name": "the user enters firstname \"John\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 33771500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 63,
-            "name": "the user enters lastname \"Smith\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13946900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 64,
-            "name": "the user enters email \"existing@gmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 15294999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 65,
-            "name": "the user enters password \"Test@123\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 15526500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 66,
-            "name": "the user enters confirm password \"Test@123\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13654500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 67,
-            "name": "the user clicks the \"Register\" button",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 813982900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 68,
-            "name": "the page should display the error \"The specified email already exists\"",
-            "match": {
-              "location": "src\\test\\steps\\registerStep.ts:56"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 35540399
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 31027999
+              "duration": 25303599
             }
           }
         ],

@@ -1,51 +1,22 @@
-import{Locator, Page} from "@playwright/test"
+import { Locator, Page } from "@playwright/test";
 import { config } from "../../main/config/config";
 
-export class BasePage{
-    constructor(protected page:Page){}
+export class BasePage {
+  constructor(protected page: Page) {}
 
-    async navigate() {
-        await this.page.goto("https://demowebshop.tricentis.com/");
-    }
+  async navigate() {
+    await this.page.goto(config.baseUrl);
+  }
 
-    async goto(url:string) {
-        await this.page.goto(url);
-    }
+  async click(locator: Locator) {
+    await locator.click();
+  }
 
-    async click(locator:Locator) {
-        await locator.click();
-    }
+  async fill(locator: Locator, value: string) {
+    await locator.fill(value);
+  }
 
-    async fill(locator:Locator, value:string) {
-        await locator.fill(value);
-    }
-
-    async getText(locator:Locator) {
-        return await locator.textContent();
-    }
-
-    async check(locator:Locator) {
-        await locator.check();
-    }
-
-    async isVisible(locator:Locator){
-        return await locator.isVisible();
-    }
-
-    async isEnabled(locator:Locator) {
-        return await locator.isEnabled();
-    }
-
-    async scrollIntoView(locator:Locator) {
-        await locator.scrollIntoViewIfNeeded();
-    }
-
-    async selectOption(locator:Locator, value:string) {
-        await locator.selectOption(value);
-    }
-
-    async uncheck(locator:Locator) {
-        await locator.uncheck();
-    }
-
+  async getText(locator: Locator) {
+    return await locator.textContent();
+  }
 }
